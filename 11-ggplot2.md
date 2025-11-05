@@ -128,7 +128,7 @@ plot(interviews_plotting$no_membrs, interviews_plotting$liv_count,
      ylab = "Number of Livestock Owned")
 ```
 
-<img src="fig/05-ggplot2-rendered-unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 ### **`Lattice`**
 Lattice is another plotting system in R, which allows for creating multi-panel plots easily. It’s different from ggplot2 because you define the entire plot in a single function call, and modifications after plotting are limited.
@@ -147,7 +147,7 @@ xyplot(liv_count ~ no_membrs | village, data = interviews_plotting,
        ylab = "Number of Livestock Owned")
 ```
 
-<img src="fig/05-ggplot2-rendered-unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 
 ## Plotting with **`ggplot2`**
@@ -223,7 +223,7 @@ interviews_plotting %>%
     geom_point()
 ```
 
-<img src="fig/05-ggplot2-rendered-first-ggplot-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-first-ggplot-1.png" style="display: block; margin: auto;" />
 
 The `+` in the **`ggplot2`** package is particularly useful because it allows
 you to modify existing `ggplot` objects. This means you can easily set up plot
@@ -281,7 +281,7 @@ interviews_plotting %>%
     geom_point()
 ```
 
-<img src="fig/05-ggplot2-rendered-create-ggplot-object-1.png" alt="Scatter plot of number of items owned versus number of household members." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-create-ggplot-object-1.png" alt="Scatter plot of number of items owned versus number of household members." style="display: block; margin: auto;" />
 
 Then, we start modifying this plot to extract more information from it. For
 instance, when inspecting the plot we notice that points only appear at the
@@ -317,7 +317,7 @@ interviews_plotting %>%
     geom_point(alpha = 0.5)
 ```
 
-<img src="fig/05-ggplot2-rendered-adding-transparency-1.png" alt="Scatter plot of number of items owned versus number of household members, with transparency added to points." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-adding-transparency-1.png" alt="Scatter plot of number of items owned versus number of household members, with transparency added to points." style="display: block; margin: auto;" />
 
 That only helped a little bit with the overplotting problem, so let's try option
 two. We can jitter the points on the plot, so that we can see each point in the
@@ -339,7 +339,7 @@ interviews_plotting %>%
     geom_jitter()
 ```
 
-<img src="fig/05-ggplot2-rendered-adding-jitter-1.png" alt="Scatter plot of number of items owned versus number of household members, showing jitter." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-adding-jitter-1.png" alt="Scatter plot of number of items owned versus number of household members, showing jitter." style="display: block; margin: auto;" />
 
 The `geom_jitter()` function allows for us to specify the amount of random
 motion in the jitter, using the `width` and `height` arguments. When we don't
@@ -357,7 +357,7 @@ interviews_plotting %>%
                 height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-adding-width-height-1.png" alt="Scatter plot of number of items owned versus number of household members, with jitter and transparency." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-adding-width-height-1.png" alt="Scatter plot of number of items owned versus number of household members, with jitter and transparency." style="display: block; margin: auto;" />
 
 For our final change, we can also add colours for all the points by specifying
 a `color` argument inside the `geom_jitter()` function:
@@ -372,7 +372,7 @@ interviews_plotting %>%
                 height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-adding-colors-1.png" alt="Scatter plot of number of items owned versus number of household members, showing points as blue." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-adding-colors-1.png" alt="Scatter plot of number of items owned versus number of household members, showing points as blue." style="display: block; margin: auto;" />
 
 To colour each village in the plot differently, you could use a vector as an input
 to the argument **`color`**.  However, because we are now mapping features of the
@@ -394,7 +394,7 @@ interviews_plotting %>%
     geom_jitter(aes(color = village), alpha = 0.5, width = 0.2, height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-color-by-species-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-color-by-species-1.png" style="display: block; margin: auto;" />
 
 There appears to be a positive trend between number of household
 members and number of items owned (from the list provided). Additionally,
@@ -418,7 +418,7 @@ interviews_plotting %>%
    geom_count()
 ```
 
-<img src="fig/05-ggplot2-rendered-color-by-species-notes-1.png" alt="Previous plot with dots colored by village." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-color-by-species-notes-1.png" alt="Previous plot with dots colored by village." style="display: block; margin: auto;" />
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -445,7 +445,7 @@ interviews_plotting %>%
 		    height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-scatter-challenge-1.png" alt="Scatter plot showing positive trend between number of household members and number of items owned." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-scatter-challenge-1.png" alt="Scatter plot showing positive trend between number of household members and number of items owned." style="display: block; margin: auto;" />
 
 This is not a great way to show this type of data because it is difficult to
 distinguish between villages. What other plot types could help you visualize
@@ -467,7 +467,7 @@ interviews_plotting %>%
     geom_boxplot()
 ```
 
-<img src="fig/05-ggplot2-rendered-boxplot-1.png" alt="Box plot of number of rooms by wall type." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-boxplot-1.png" alt="Box plot of number of rooms by wall type." style="display: block; margin: auto;" />
 
 By adding points to a boxplot, we can have a better idea of the number of
 measurements and of their distribution:
@@ -483,7 +483,7 @@ interviews_plotting %>%
     		height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-boxplot-with-jitter-1.png" alt="Previous plot with dot plot added as additional layer to show individual values. Boxplot layer is transparent." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-boxplot-with-jitter-1.png" alt="Previous plot with dot plot added as additional layer to show individual values. Boxplot layer is transparent." style="display: block; margin: auto;" />
 
 We can see that muddaub houses and sunbrick houses tend to be smaller than
 burntbrick houses.
@@ -519,7 +519,7 @@ Warning: Groups with fewer than two datapoints have been dropped.
 ℹ Set `drop = FALSE` to consider such groups for position adjustment purposes.
 ```
 
-<img src="fig/05-ggplot2-rendered-violin-plot-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-violin-plot-1.png" style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::
 
@@ -542,7 +542,7 @@ interviews_plotting %>%
    geom_jitter(alpha = 0.5, width = 0.2, height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-boxplot-exercise-1.png" alt="Box plot of number of livestock owned by wall type, with dot plot added as additional layer to show individual values." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-boxplot-exercise-1.png" alt="Box plot of number of livestock owned by wall type, with dot plot added as additional layer to show individual values." style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::
 
@@ -561,7 +561,7 @@ interviews_plotting %>%
   geom_jitter(aes(color = memb_assoc), alpha = 0.5, width = 0.2, height = 0.2)
 ```
 
-<img src="fig/05-ggplot2-rendered-boxplot-exercise-factor-1.png" alt="Previous plot with dots colored based on whether respondent was a member of an irrigation association." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-boxplot-exercise-factor-1.png" alt="Previous plot with dots colored based on whether respondent was a member of an irrigation association." style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::
 
@@ -580,7 +580,7 @@ interviews_plotting %>%
     geom_bar()
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-1-1.png" alt="Bar plot showing counts of respondent wall types." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-1-1.png" alt="Bar plot showing counts of respondent wall types." style="display: block; margin: auto;" />
 
 We can use the `fill` aesthetic for the `geom_bar()` geom to colour bars by
 the portion of each count that is from each village.
@@ -592,7 +592,7 @@ interviews_plotting %>%
     geom_bar(aes(fill = village))
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-stack-1.png" alt="Stacked bar plot of wall types showing each village as a different color." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-stack-1.png" alt="Stacked bar plot of wall types showing each village as a different color." style="display: block; margin: auto;" />
 
 This creates a stacked bar chart. These are generally more difficult to read
 than side-by-side bars. We can separate the portions of the stacked bar that
@@ -606,7 +606,7 @@ interviews_plotting %>%
     geom_bar(aes(fill = village), position = "dodge")
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-dodge-1.png" alt="Bar plot of respondent wall types with each village as a separate bar." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-dodge-1.png" alt="Bar plot of respondent wall types with each village as a separate bar." style="display: block; margin: auto;" />
 
 This is a nicer graphic, but we're more likely to be interested in the
 proportion of each housing type in each village than in the actual count of
@@ -636,7 +636,7 @@ percent_wall_type %>%
     geom_bar(stat = "identity", position = "dodge")
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-wall-type-1.png" alt="Side by side bar plot showing percent of respondents in each village with each wall type." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-wall-type-1.png" alt="Side by side bar plot showing percent of respondents in each village with each wall type." style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -666,7 +666,7 @@ percent_memb_assoc %>%
     geom_bar(stat = "identity", position = "dodge")
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-memb-assoc-1.png" alt="Bar plot showing percent of respondents in each village who were part of association." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-memb-assoc-1.png" alt="Bar plot showing percent of respondents in each village who were part of association." style="display: block; margin: auto;" />
 
 Ruaca had the lowest proportion of members in an irrigation association.
 
@@ -701,7 +701,7 @@ percent_wall_type %>%
          y = "Percent")
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-wall-types-labeled-1.png" alt="Previous plot with plot title and labells added." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-wall-types-labeled-1.png" alt="Previous plot with plot title and labells added." style="display: block; margin: auto;" />
 
 ## Faceting
 
@@ -728,7 +728,7 @@ percent_wall_type %>%
     facet_wrap(~ village)
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-faceting-1.png" alt="Bar plot showing percent of each wall type in each village." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-faceting-1.png" alt="Bar plot showing percent of each wall type in each village." style="display: block; margin: auto;" />
 
 Click the "Zoom" button in your RStudio plots pane to view a larger
 version of this plot.
@@ -750,7 +750,7 @@ percent_wall_type %>%
     theme(panel.grid = element_blank())
 ```
 
-<img src="fig/05-ggplot2-rendered-barplot-theme-bw-1.png" alt="Bar plot showing percent of each wall type in each village, with black and white theme applied." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-barplot-theme-bw-1.png" alt="Bar plot showing percent of each wall type in each village, with black and white theme applied." style="display: block; margin: auto;" />
 
 What if we wanted to see the proportion of respondents in each village
 who owned a particular item? We can calculate the percent of people
@@ -798,7 +798,7 @@ percent_items %>%
     theme(panel.grid = element_blank())
 ```
 
-<img src="fig/05-ggplot2-rendered-percent-items-barplot-1.png" alt="Multi-panel bar chart showing percent  of respondents in each village and who owned each item, with no grids behid bars." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-percent-items-barplot-1.png" alt="Multi-panel bar chart showing percent  of respondents in each village and who owned each item, with no grids behid bars." style="display: block; margin: auto;" />
 
 ## **`ggplot2`** themes
 
@@ -846,7 +846,7 @@ percent_items %>%
     theme_bw()
 ```
 
-<img src="fig/05-ggplot2-rendered-ggplot-customization-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-ggplot-customization-1.png" style="display: block; margin: auto;" />
 
 The axes have more informative names, but their readability can be improved by
 increasing the font size:
@@ -864,7 +864,7 @@ percent_items %>%
     theme(text = element_text(size = 16))
 ```
 
-<img src="fig/05-ggplot2-rendered-ggplot-customization-font-size-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-ggplot-customization-font-size-1.png" style="display: block; margin: auto;" />
 
 Note that it is also possible to change the fonts of your plots. If you are on
 Windows, you may have to install the [**`extrafont`**
@@ -894,7 +894,7 @@ percent_items %>%
           text = element_text(size = 16))
 ```
 
-<img src="fig/05-ggplot2-rendered-ggplot-customization-label-orientation-1.png" alt="Multi-panel bar charts showing percent of respondents in each village and who owned each item, with grids behind the bars." style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-ggplot-customization-label-orientation-1.png" alt="Multi-panel bar charts showing percent of respondents in each village and who owned each item, with grids behind the bars." style="display: block; margin: auto;" />
 
 If you like the changes you created better than the default theme, you can save
 them as an object to be able to easily apply them to other plots you may create.
@@ -920,7 +920,7 @@ percent_items %>%
     grey_theme
 ```
 
-<img src="fig/05-ggplot2-rendered-ggplot-custom-themes-1.png" style="display: block; margin: auto;" />
+<img src="fig/11-ggplot2-rendered-ggplot-custom-themes-1.png" style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 

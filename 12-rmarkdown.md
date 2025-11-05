@@ -390,7 +390,7 @@ uses one backtick (`` `r` ``), whereas code chunks use three backticks
 (`` ```r``` ``).
 
 For example, today's date is ``` `r Sys.Date()` ```, will be rendered as:
-today's date is 2025-11-04.  
+today's date is 2025-11-05.  
 The code will display today's date in the output document (well, technically the
 date the document was last knitted).
 
@@ -479,7 +479,7 @@ interviews_plotting %>%
   geom_bar(aes(fill = village))
 ```
 
-<img src="fig/06-rmarkdown-rendered-my-fancy-plot-1.png" style="display: block; margin: auto;" />
+<img src="fig/12-rmarkdown-rendered-my-fancy-plot-1.png" style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::
 
@@ -507,7 +507,7 @@ interviews_plotting %>%
 ```
 
 <div class="figure" style="text-align: center">
-<img src="fig/06-rmarkdown-rendered-caption-plot-1.png" alt="I made this plot while attending an awesome Data Carpentries workshop where I learned a ton of cool stuff!"  />
+<img src="fig/12-rmarkdown-rendered-caption-plot-1.png" alt="I made this plot while attending an awesome Data Carpentries workshop where I learned a ton of cool stuff!"  />
 <p class="caption">I made this plot while attending an awesome Data Carpentries workshop where I learned a ton of cool stuff!</p>
 </div>
 
