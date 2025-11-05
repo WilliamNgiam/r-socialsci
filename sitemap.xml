@@ -1,207 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/00-intro.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/00-intro.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/01-intro-to-r.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/01-intro-to-r.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/02-starting-with-data.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/02-starting-with-data.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/03-dplyr.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/03-data-structures-part1.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/04-tidyr.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/03-dplyr.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/05-ggplot2.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/04-data-structures-part2.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/06-rmarkdown.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/04-tidyr.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/07-json.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/05-data-subsetting.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/404.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/05-ggplot2.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/CODE_OF_CONDUCT.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/06-control-flow.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/LICENSE.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/06-rmarkdown.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/all_figures.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/07-json.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/all_keypoints.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/07-vectorization.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/base_path.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/08-functions.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/carpentries.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/09-dplyr.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/dc/intro.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/10-tidyr.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/dc/schedule.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/11-ggplot2.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/dc/syllabus.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/12-rmarkdown.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/dc/who.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/13-wrap-up.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/episode_break.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/404.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/episode_keypoints.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/episode_navbar.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/episode_overview.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/all_figures.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/episode_title.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/all_keypoints.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/favicons.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/base_path.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/gh_variables.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/carpentries.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/javascript.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/dc/intro.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/lc/intro.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/dc/schedule.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/lc/schedule.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/dc/syllabus.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/lc/syllabus.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/dc/who.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/lc/who.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/episode_break.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/lesson_footer.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/episode_keypoints.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/life_cycle.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/episode_navbar.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/main_title.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/episode_overview.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/manual_episode_order.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/episode_title.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/navbar.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/favicons.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/sc/intro.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/gh_variables.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/sc/schedule.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/javascript.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/sc/syllabus.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/lc/intro.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/sc/who.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/lc/schedule.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/syllabus.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/lc/syllabus.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/workshop_ad.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/lc/who.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/workshop_calendar.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/lesson_footer.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_includes/workshop_footer.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/life_cycle.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/base.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/main_title.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/break.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/manual_episode_order.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/episode.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/navbar.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/lesson.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/sc/intro.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/page.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/sc/schedule.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/reference.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/sc/syllabus.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/_layouts/workshop.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/sc/who.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/index.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/syllabus.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/00-intro.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/workshop_ad.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/01-intro-to-r.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/workshop_calendar.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/02-starting-with-data.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_includes/workshop_footer.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/03-dplyr.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/base.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/04-tidyr.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/break.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/05-ggplot2.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/episode.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/06-rmarkdown.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/lesson.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/07-json.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/page.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/404.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/reference.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/_layouts/workshop.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/LICENSE.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/aio.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/index.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/images.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/profiles.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/index.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/instructor/reference.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/00-intro.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/profiles.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/01-intro-to-r.html</loc>
   </url>
   <url>
-    <loc>https://datacarpentry.org/r-socialsci/reference.html</loc>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/02-starting-with-data.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/03-data-structures-part1.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/03-dplyr.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/04-data-structures-part2.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/04-tidyr.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/05-data-subsetting.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/05-ggplot2.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/06-control-flow.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/06-rmarkdown.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/07-json.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/07-vectorization.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/08-functions.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/09-dplyr.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/10-tidyr.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/11-ggplot2.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/12-rmarkdown.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/13-wrap-up.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/404.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://williamngiam.github.io/2025-AU-intro-to-R/reference.html</loc>
   </url>
 </urlset>

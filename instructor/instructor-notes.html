@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>R for Social Scientists: Instructor Notes</title>
+<title>Introduction to R for AU Psychology: Instructor Notes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -85,7 +85,7 @@
       <img class="small-logo" alt="Data Carpentry" src="../assets/images/data-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      R for Social Scientists
+      Introduction to R for AU Psychology
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -96,7 +96,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            R for Social Scientists
+            Introduction to R for AU Psychology
           </span>
         </li>
         <li class="nav-item">
@@ -133,7 +133,7 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  R for Social Scientists
+  Introduction to R for AU Psychology
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
@@ -271,7 +271,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="03-dplyr.html">4. Data Wrangling with dplyr</a>
+        <a href="03-data-structures-part1.html">4. Data Structures</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -283,7 +283,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="04-tidyr.html">5. Data Wrangling with tidyr</a>
+        <a href="04-data-structures-part2.html">5. Exploring Data Frames</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -295,7 +295,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="05-ggplot2.html">6. Data Visualisation with ggplot2</a>
+        <a href="05-data-subsetting.html">6. Subsetting Data</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -307,7 +307,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="06-rmarkdown.html">7. Getting started with R Markdown (Optional)</a>
+        <a href="06-control-flow.html">7. Control Flow</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -319,7 +319,79 @@
 <div class="accordion accordion-flush" id="accordionFlush9">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading9">
-        <a href="07-json.html">8. Processing JSON data (Optional)</a>
+        <a href="07-vectorization.html">8. Vectorization</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush10">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading10">
+        <a href="08-functions.html">9. Functions Explained</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush11">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading11">
+        <a href="09-dplyr.html">10. Data Wrangling with dplyr</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush12">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading12">
+        <a href="10-tidyr.html">11. Data Wrangling with tidyr</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush13">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading13">
+        <a href="11-ggplot2.html">12. Data Visualisation with ggplot2</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush14">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading14">
+        <a href="12-rmarkdown.html">13. Getting started with R Markdown (Optional)</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush15">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading15">
+        <a href="13-wrap-up.html">14. Writing Good Software</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -531,10 +603,16 @@ first time they are exposed to it. The content of the lesson should be
 enough for learners to avoid common mistakes with them.</li>
 </ul>
 <hr>
-<br></section><section id="03-dplyr"><h2 class="section-heading"><a href="03-dplyr.html">Data Wrangling with dplyr</a></h2>
+<br></section><section id="03-data-structures-part1"><h2 class="section-heading"><a href="03-data-structures-part1.html">Data Structures</a></h2>
+<hr class="half-width"></section><section id="04-data-structures-part2"><h2 class="section-heading"><a href="04-data-structures-part2.html">Exploring Data Frames</a></h2>
+<hr class="half-width"></section><section id="05-data-subsetting"><h2 class="section-heading"><a href="05-data-subsetting.html">Subsetting Data</a></h2>
+<hr class="half-width"></section><section id="06-control-flow"><h2 class="section-heading"><a href="06-control-flow.html">Control Flow</a></h2>
+<hr class="half-width"></section><section id="07-vectorization"><h2 class="section-heading"><a href="07-vectorization.html">Vectorization</a></h2>
+<hr class="half-width"></section><section id="08-functions"><h2 class="section-heading"><a href="08-functions.html">Functions Explained</a></h2>
+<hr class="half-width"></section><section id="09-dplyr"><h2 class="section-heading"><a href="09-dplyr.html">Data Wrangling with dplyr</a></h2>
 <hr class="half-width">
-<h3 id="03-dplyr-headingInstructor1">
-<a href="03-dplyr.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#03-dplyr-headingInstructor1"></a>
+<h3 id="09-dplyr-headingInstructor1">
+<a href="09-dplyr.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#09-dplyr-headingInstructor1"></a>
 </h3>
 <ul>
 <li>This lesson works better if you have graphics demonstrating dplyr
@@ -547,11 +625,11 @@ pipes.</li>
 and <code>select()</code>.</li>
 </ul>
 <hr>
-<br></section><section id="04-tidyr"><h2 class="section-heading"><a href="04-tidyr.html">Data Wrangling with tidyr</a></h2>
-<hr class="half-width"></section><section id="05-ggplot2"><h2 class="section-heading"><a href="05-ggplot2.html">Data Visualisation with ggplot2</a></h2>
+<br></section><section id="10-tidyr"><h2 class="section-heading"><a href="10-tidyr.html">Data Wrangling with tidyr</a></h2>
+<hr class="half-width"></section><section id="11-ggplot2"><h2 class="section-heading"><a href="11-ggplot2.html">Data Visualisation with ggplot2</a></h2>
 <hr class="half-width">
-<h3 id="05-ggplot2-headingInstructor1">
-<a href="05-ggplot2.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#05-ggplot2-headingInstructor1"></a>
+<h3 id="11-ggplot2-headingInstructor1">
+<a href="11-ggplot2.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#11-ggplot2-headingInstructor1"></a>
 </h3>
 <ul>
 <li>This episode is a broad overview of ggplot2 and focuses on (1)
@@ -567,10 +645,10 @@ to copy the code into the Etherpad.</li>
 exporting data section in that episode.</li>
 </ul>
 <hr>
-<br></section><section id="06-rmarkdown"><h2 class="section-heading"><a href="06-rmarkdown.html">Getting started with R Markdown (Optional)</a></h2>
+<br></section><section id="12-rmarkdown"><h2 class="section-heading"><a href="12-rmarkdown.html">Getting started with R Markdown (Optional)</a></h2>
 <hr class="half-width">
-<h3 id="06-rmarkdown-headingInstructor1">
-<a href="06-rmarkdown.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#06-rmarkdown-headingInstructor1"></a>
+<h3 id="12-rmarkdown-headingInstructor1">
+<a href="12-rmarkdown.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#12-rmarkdown-headingInstructor1"></a>
 </h3>
 <ul>
 <li>This is an optional lesson intended to introduce learners to R
@@ -580,21 +658,8 @@ prefer to teach it early in the workshop, depending on the
 audience.</li>
 </ul>
 <hr>
-<br></section><section id="07-json"><h2 class="section-heading"><a href="07-json.html">Processing JSON data (Optional)</a></h2>
-<hr class="half-width">
-<h3 id="07-json-headingInstructor1">
-<a href="07-json.html#headingInstructor1">Instructor Note</a><a class="anchor" aria-label="anchor" href="#07-json-headingInstructor1"></a>
-</h3>
-<ul>
-<li>This is an optional lessons intended to introduce learners to JSON
-data, as well as how to read JSON data into R and how to convert the
-data into a data frame or array.</li>
-<li>Note that his lesson was community-contributed and remains a work in
-progress. As such, it could benefit from feedback from instructors
-and/or workshop participants.</li>
-</ul>
-<hr>
-<br></section></section>
+<br></section><section id="13-wrap-up"><h2 class="section-heading"><a href="13-wrap-up.html">Writing Good Software</a></h2>
+<hr class="half-width"></section></section>
 </div>
     </main>
 </div>
@@ -632,18 +697,18 @@ and/or workshop participants.</li>
     {
   "@context": "https://schema.org",
   "@type": "LearningResource",
-  "@id": "https://datacarpentry.org/r-socialsci/instructor/instructor-notes.html",
+  "@id": "https://williamngiam.github.io/2025-AU-intro-to-R/instructor/instructor-notes.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries",
   "name": "Instructor Notes",
   "creativeWorkStatus": "active",
-  "url": "https://datacarpentry.org/r-socialsci/instructor/instructor-notes.html",
-  "identifier": "https://datacarpentry.org/r-socialsci/instructor/instructor-notes.html",
-  "dateCreated": "2017-05-25",
-  "dateModified": "2025-11-04",
-  "datePublished": "2025-11-04"
+  "url": "https://williamngiam.github.io/2025-AU-intro-to-R/instructor/instructor-notes.html",
+  "identifier": "https://williamngiam.github.io/2025-AU-intro-to-R/instructor/instructor-notes.html",
+  "dateCreated": "2026-01-15",
+  "dateModified": "2025-11-05",
+  "datePublished": "2025-11-05"
 }
 
   </script><script>
