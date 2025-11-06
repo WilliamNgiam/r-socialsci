@@ -11,10 +11,10 @@
 carpentry: 'dc'
 
 # Overall title for pages.
-title: 'R for Social Scientists'
+title: 'Introduction to R for AU Psychology'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2017-05-25'
+created: '2026-01-15'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -62,11 +62,17 @@ episodes:
 - 00-intro.Rmd
 - 01-intro-to-r.Rmd
 - 02-starting-with-data.Rmd
-- 03-dplyr.Rmd
-- 04-tidyr.Rmd
-- 05-ggplot2.Rmd
-- 06-rmarkdown.Rmd
-- 07-json.Rmd
+- 03-data-structures-part1.Rmd
+- 04-data-structures-part2.Rmd
+- 05-data-subsetting.Rmd
+- 06-control-flow.Rmd
+- 07-vectorization.Rmd
+- 08-functions.Rmd
+- 09-dplyr.Rmd
+- 10-tidyr.Rmd
+- 11-ggplot2.Rmd
+- 12-rmarkdown.Rmd
+- 13-wrap-up.Rmd
 
 # Information for Learners
 learners: 
@@ -85,4 +91,4 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://datacarpentry.org/r-socialsci'
+url: 'https://williamngiam.github.io/2025-AU-intro-to-R'
