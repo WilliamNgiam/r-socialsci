@@ -2,10 +2,13 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is the starting page for a workshop introducing R for the School of Psychology at Adelaide University. The workshop is conducted by:
+This is the starting page for a workshop introducing R for the School of Psychology at Adelaide University. The workshop is being conducted by:
+
 * Dr William Ngiam (lead)
-* A/Prof Rachel Searson (facilitator)
-* Dr Toby Prike (facilitator)
+
+* A/Prof Rachel Searston
+
+* Dr Toby Prike
 
 This workshop is an introduction to R designed for participants with no
 programming experience. The lessons in this workshop were adapted from those developed by [The Carpentries](https://carpentries.org/).
@@ -44,7 +47,7 @@ everything *before* working through this lesson.
 ## For Instructors
 
 If you are teaching this lesson in a workshop, please see the
-[Instructor notes](https://datacarpentry.org/r-socialsci/instructor/instructor-notes.html)
+[Instructor notes](https://williamngiam.github.io/2025-AU-intro-to-R/instructor/instructor-notes.html)
 for helpful tips.
 
 
